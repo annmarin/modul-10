@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ccc;    
+}
+#carousel {
+    margin: 0 auto;    
+    width: 440px;
+    height: 340px;
+    overflow: hidden;
+    border: 20px solid #fff;
+    font-size: 50px;
+    position: relative;
+}
+#carousel > ul {
+    margin: 0;
+    padding: 0;    
+    width: 2000px;  
+}
+#carousel > ul > li {
+    list-style-type: none;
+    width: 400px;
+    height: 300px;
+    float: left;    
+}
+i {    
+    color: #fff;
+    opacity: 0.7;
+    position: absolute;
+    top: 45%;
+    transition: 1s;
+}
+.fa-chevron-right {
+    left: 91%;
+}
+i:hover {
+    opacity: 1; 
+    transition: opacity 1s;   
+}
